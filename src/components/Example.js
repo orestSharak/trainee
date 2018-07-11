@@ -17,7 +17,7 @@ class Example extends Component {
     }
 
     componentDidMount() {
-        fetch('https://rawgit.com/orestSharak/901bad8e713b6aade71d67ce2fa636c9/raw/4d061005d50581894f5b8da5674908796e7eea1d/myDatasFile.json')
+        fetch('https://gist.githubusercontent.com/orestSharak/901bad8e713b6aade71d67ce2fa636c9/raw/5805f562c8e634fd0b54ef7191182bae6f5357cb/myDatasFile.json')
             .then(response => response.json())
             .then((result) => {
                 this.setState({
