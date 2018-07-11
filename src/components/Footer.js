@@ -2,16 +2,16 @@ import React, {Component} from 'react';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {fab} from '@fortawesome/free-brands-svg-icons';
-import { faLink, faChevronCircleDown} from '@fortawesome/free-solid-svg-icons';
+import {faLink, faChevronCircleDown} from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab,faLink, faChevronCircleDown);
+library.add(fab, faLink, faChevronCircleDown);
+
 class Footer extends Component {
     render() {
-        return(
+        return (
             <div className="container-fluid">
                 <div className="row">
-                    <div className="d-flex col-12
-                        footer flex-column justify-content-between align-items-center">
+                    <div className="d-flex col-12 footer flex-column justify-content-between align-items-center">
                         <h2 className="footer-text">deel op social media</h2>
                         <div className="d-flex justify-content-center social-block">
                             <a className="social-btn" target="_blank" href="http://facebook.com"><FontAwesomeIcon

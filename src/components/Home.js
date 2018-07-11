@@ -48,11 +48,8 @@ class Home extends Component {
                             {datas.map((data, index) =>
                                 <div key={index}>
                                     <img className="image-full-width" src={data.img}/>
-                                    <div className="col-lg-8  offset-lg-2
-                                   col-md-10 offset-md-1
-                                    col-sm-10 offset-sm-1
-                                    col-12 offset-0
-                                    position-relative wrapper ">
+                                    <div
+                                        className="col-lg-8  offset-lg-2 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-12 offset-0 position-relative wrapper ">
                                         <span className="date-block">{data.date}</span>
                                         <h1>{data.title}</h1>
                                         <p>{data.description}</p>
